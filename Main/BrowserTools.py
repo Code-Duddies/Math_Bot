@@ -8,7 +8,7 @@ from selenium.common.exceptions import WebDriverException
 import time
 
 # Custom imports
-from Main.AbstractTool import AbstractTool
+from AbstractTool import AbstractTool
 
 
 #Base browser tools

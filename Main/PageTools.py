@@ -9,7 +9,7 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException
 import time
 
 # Custom modules
-from Main.BrowserTools import BrowserTools
+from BrowserTools import BrowserTools
 
 
 class PageTools(BrowserTools):
@@ -84,4 +84,3 @@ class PageTools(BrowserTools):
             errorReport =  f'Soup unable to find element: {ve}'
             self.logger.error_call(errorReport)
             
-    
